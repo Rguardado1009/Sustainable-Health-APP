@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Home from "./Home";
-
+import About from "./About";
+import Nav from "./Nav";
+import Footer from "./Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
 	const [brands, setBrands] = useState([]);
@@ -17,13 +20,16 @@ function App() {
 			.then((questions) => setQuestions(questions));
 	}, []);
 
-console.log(brands)
-console.log(questions)
+	console.log(brands);
+	console.log(questions);
 
 	return (
 		<div>
-			<Home brands={brands} questions={questions}/>
-            
+			<h1 className="title">Sustainable Health Score</h1>
+			<Nav className="navbar" />
+			<Home brands={brands} questions={questions} />
+			<About />
+			<Footer />
 		</div>
 	);
 }
