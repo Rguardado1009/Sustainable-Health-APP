@@ -2,287 +2,276 @@
 	"brands": [
 		{
 			"id": 1,
-			"name": "Public Goods",
+			"name": "",
 			"type": "Clothing",
 			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"price": "$$",
+			"item_url": "https://www.patagonia.com/home/",
+			"image": "https://www.patagonia.com/blog/wp-content/uploads/2012/04/logo_featured_1-450x248.jpg.webp"
 		},
 		{
 			"id": 2,
-			"name": " Men's Long-Sleeved Lightweight Rugby Shirt ",
+			"name": "",
 			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 99,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw3c4300c6/images/hi-res/53860_OGRR.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"brand": "Levis",
+			"price": "$$",
+			"item_url": "https://www.levi.com/US/en_US/",
+			"image": "https://logos-world.net/wp-content/uploads/2020/04/Levis-Logo-2003-present.jpg"
+
 		},
 		{
 			"id": 3,
 			"name": " ",
 			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"brand": "Ralph Lauren",
+			"price": "$$$",
+			"item_url": "https://www.ralphlauren.com/",
+			"image": "https://blog.logomyway.com/wp-content/uploads/2021/02/ralph-lauren-logo-evolution.jpg"
 		},
 		{
 			"id": 4,
 			"name": " ",
 			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"brand": "United By Blue",
+			"price": "$",
+			"item_url": "https://unitedbyblue.com/",
+			"image": "https://cdn.shopify.com/s/files/1/0287/3670/files/Logo-Horizontal-WebBlue-01.png?height=628&pad_color=ffffff&v=1597930223&width=1200"
 		},
 		{
 			"id": 5,
 			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"type": "Furniture",
+			"brand": "Masaya & Co",
+			"price": "$$$",
+			"item_url": "https://www.perigold.com/brand/bnd/masaya-co-b43582.html?refid=GX500749969612.~b&position=&network=g&pcrid=500749969612&device=c&targetid=dsa-421820846564&channel=GoogleIntent&gclid=Cj0KCQjwsZKJBhC0ARIsAJ96n3XDJuc04AeWNcIUK-_aV9NhTUfQTXbPMWGYjL_qAhSMeLeEwCwatu4aAu3kEALw_wcB",
+			"image": "https://cdn.shopify.com/s/files/1/1026/2987/collections/handwovenFurniture_500x.png?v=1620420599"
 		},
 		{
 			"id": 6,
 			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"type": "Furniture",
+			"brand": "Alabama Sawyer",
+			"price": "$",
+			"item_url": "https://alasaw.com/",
+			"image": "http://gardenandgun.com/wp-content/uploads/2017/11/GG0617_mitsa_31_cropped.jpg"
 		},
 		{
 			"id": 7,
 			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"type": "Furniture",
+			"brand": "Emeco",
+			"price": "$$",
+			"item_url": "https://www.emeco.net/?gclid=Cj0KCQjwsZKJBhC0ARIsAJ96n3WAOASOb9HjBRE9Oz4CNkPNU5YcPZ7JhmAYGp26pivf5avCH59d-OsaApkjEALw_wcB",
+			"image": "https://hivemodern.com/public_resources/full/emeco-navy-wood-chair-7.jpg"
 		},
 		{
 			"id": 8,
 			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"type": "furniture",
+			"brand": "Simbly",
+			"price": "$$$",
+			"item_url": "https://simbly.com/",
+			"image": "https://cdn.shopify.com/s/files/1/0003/0667/5724/files/Simbly_Furniture_Collection_1400x.jpg?v=1602775163"
 		},
 		{
 			"id": 9,
 			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"type": "Household",
+			"brand": "Public Goods",
+			"price": "$",
+			"item_url": "https://www.publicgoods.com/",
+			"image": "https://blog.mysubscriptionaddiction.com/wp-content/uploads/2020/03/Public-Goods-March-2020-0005-733x733.jpg"
 		},
 		{
 			"id": 10,
 			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"type": "Household",
+			"brand": "Earth Hero",
+			"price": "$",
+			"item_url": "https://earthhero.com/product-category/home/",
+			"image": "https://1yjob743ilegfihp83lnmdm1-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/Sustainable-Ethical-Online-Shops-EarthHero-1024x682.jpg"
 		},
 		{
 			"id": 11,
 			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"type": "Household",
+			"brand": "Dr Bronner",
+			"price": "$",
+			"item_url": "https://www.drbronner.com/",
+			"image": "https://cdn.vox-cdn.com/thumbor/qXPfkz40Nl7j6zKpOoUwQtB0Xw8=/0x0:1920x1080/1200x675/filters:focal(807x387:1113x693)/cdn.vox-cdn.com/uploads/chorus_image/image/63750939/3_bronner.0.png"
 		},
 		{
 			"id": 12,
 			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 13,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 14,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 15,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 16,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 17,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 18,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 19,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 20,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 21,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 22,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 23,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 24,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 25,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 26,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 27,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 28,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 29,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
-		},
-		{
-			"id": 30,
-			"name": " ",
-			"type": "Clothing",
-			"brand": "Patagonia",
-			"price": 139,
-			"item_url": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe5299d70/images/hi-res/22801_BRBN.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6"
+			"type": "Household",
+			"brand": "Dropps",
+			"price": "$",
+			"item_url": "https://www.dropps.com/",
+			"image": "https://mk0plaineproduc2a6do.kinstacdn.com/wp-content/uploads/IMG_4422.jpg"
 		}
 	],
   
     "Questions": [
-      {
+      	{
         "id": 1,
-        "question": "How often are you recycling your plastics, metals, and papers?",
+        "question": "Do you recycle?",
         "answer1": "All the time",
         "answer2": "Once in a while",
         "answer3": "Once a week",
         "answer4": "Once a month"
         },
-      {
+      	{
         "id": 2,
-        "question": "How often are you recycling your plastics, metals, and papers?",
-        "answer1": "All the time",
-        "answer2": "Once in a while",
-        "answer3": "Once a week",
-        "answer4": "Once a month"
+        "question": "Do you try to reduce your production of daily trash?",
+        "answer1": "Always I hate taking out the trash",
+        "answer2": "No, but I buy recycled stuff anyway",
+        "answer3": "Sometimes when I have the energy",
+        "answer4": "Never, I only do what is most convenient for me"
         },
-      {
+      	{
         "id": 3,
-        "question": "How often are you recycling your plastics, metals, and papers?",
-        "answer1": "All the time",
-        "answer2": "Once in a while",
-        "answer3": "Once a week",
-        "answer4": "Once a month"
+        "question": "Would you buy an electric car?",
+        "answer1": "I drive one now and I love it",
+        "answer2": "Yes, my next car will be electric",
+        "answer3": "Maybe, if I had the money or if they were big enough to hold my family",
+        "answer4": "No, they look funny"
         },
-      {
+      	{
         "id": 4,
-        "question": "How often are you recycling your plastics, metals, and papers?",
+        "question": "Do you turn out the lights when you leave the house?",
         "answer1": "All the time",
-        "answer2": "Once in a while",
-        "answer3": "Once a week",
-        "answer4": "Once a month"
+        "answer2": "Yes but not all of them",
+        "answer3": "Sometimes",
+        "answer4": "Never"
         },
-      {
+      	{
         "id": 5,
-        "question": "How often are you recycling your plastics, metals, and papers?",
-        "answer1": "All the time",
-        "answer2": "Once in a while",
-        "answer3": "Once a week",
-        "answer4": "Once a month"
-        }
+        "question": "How many miles per gallon does your vehicle get?",
+        "answer1": "Vehicles pollute too much so I don't use them",
+        "answer2": "Greater than 40",
+        "answer3": "Between 30-40",
+        "answer4": "Less than 30"
+        },
+		{
+		"id": 6,
+		"question": "Do you buy organic foods?",
+		"answer1": "All the time",
+		"answer2": "Once in a while",
+		"answer3": "Never",
+		"answer4": "I don't know my mom buys my food"
+		},
+		{
+		"id": 7,
+		"question": "Do you try to reduce your production of daily trash?",
+		"answer1": "Always I hate taking out the trash",
+		"answer2": "No, but I buy recycled stuff anyway",
+		"answer3": "Sometimes when I have the energy",
+		"answer4": "Never, I only do what is most convenient for me"
+		},
+		{
+		"id": 8,
+		"question": "Do you use LED light fixtures/bulbs in your house",
+		"answer1": "Yes all my fixtures use LED bulbs",
+		"answer2": "Only some of my fixtures use LED bulbs",
+		"answer3": "No, what are they?",
+		"answer4": "No, they are too expensive"
+		},
+		{
+		"id": 9,
+		"question": "Do you leave your cell phone charger plugged in when the phone isn't even on it?",
+		"answer1": "Never",
+		"answer2": "Sometimes",
+		"answer3": "All the time",
+		"answer4": "Does it even matter?"
+		},
+		{
+		"id": 10,
+		"question": "Do you drink bottled water?",
+		"answer1": "Never",
+		"answer2": "Sometimes",
+		"answer3": "All the time",
+		"answer4": "Does it even matter?"
+		},
+		{
+		"id": 11,
+		"question": "Do you try to reduce your production of daily trash?",
+		"answer1": "Always I hate taking out the trash",
+		"answer2": "No, but I buy recycled stuff anyway",
+		"answer3": "Sometimes when I have the energy",
+		"answer4": "Never, I only do what is most convenient for me"
+		},
+		{
+		"id": 12,
+		"question": "What do you do with clothes that you don't want anymore?",
+		"answer1": "Donate them",
+		"answer2": "I make a quilt out of them",
+		"answer3": "Sell them",
+		"answer4": "Throw them away"
+		},
+		{
+		"id": 13,
+		"question": "When having a family BBQ, what do you eat off of?",
+		"answer1": "Biodegradable plates, cups, eating utensils, and napkins",
+		"answer2": "Dishes from inside the house that I will wash later",
+		"answer3": "Paper plates and plastic cups",
+		"answer4": "Styrofoam plates and cups"
+		},
+		{
+		"id": 14,
+		"question": "What do you use to carry your groceries?",
+		"answer1": "Reusable canvas bags",
+		"answer2": "Paper or plastic bags that I recycle after",
+		"answer3": "Paper bags",
+		"answer4": "Plastic bags"
+		},
+		{
+		"id": 15,
+		"question": "Do you turn off the water while you brush your teeth, shave, etc?",
+		"answer1": "All the time",
+		"answer2": "Once in a while",
+		"answer3": "Never",
+		"answer4": "I don't do any of those things"
+		},
+		{
+		"id": 16,
+		"question": "When I clean my home I use?",
+		"answer1": "All natural cleaning products",
+		"answer2": "I make my own clearning agents",
+		"answer3": "I buy whatever is cheapest",
+		"answer4": "I just use a broom"
+		},
+		{
+		"id": 17,
+		"question": "When buying furniture, my go to store is?",
+		"answer1": "Vintage, used furniture stores",
+		"answer2": "I make sure to research eco-friendly furniture before buying",
+		"answer3": "I buy all my furniture from Amazon",
+		"answer4": "I buy whatever is cheapest and looks the best in my space"
+		},
+		{
+		"id": 18,
+		"question": "Do you have appliances (fridge, stove, washer/dryer) in your home that is over 10 years old?",
+		"answer1": "No everything is new and Energy Star Qualified",
+		"answer2": "No I use fire to cook my food",
+		"answer3": "Some are old and some are new",
+		"answer4": "Yes I love antiques!"
+		},
+		{
+		"id": 19,
+		"question": "When buying new clothes, my go to store is?",
+		"answer1": "Vintage, used furniture stores",
+		"answer2": "I make sure to research eco-friendly clothing stores before buying",
+		"answer3": "I buy all my clothes from Amazon",
+		"answer4": "I buy whatever is cheapest and looks the best on me"
+		},
+		{
+		"id": 20,
+		"question": "Do you sign up for electronic bank statements?",
+		"answer1": "Yes",
+		"answer2": "I dont have a bank!",
+		"answer3": "No",
+		"answer4": "You can do that?"
+		}
     ]
   }
 

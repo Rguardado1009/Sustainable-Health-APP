@@ -4,6 +4,10 @@ import styled from "styled-components";
 import AdviceCard from "./AdviceCard";
 import Questionnaire from "./Questionnaire";
 
+const H1 = styled.div`
+text-align: center;
+font-size: 50px;
+`
 function Home({ brands, questions }) {
 	return (
 		<div>
@@ -11,7 +15,7 @@ function Home({ brands, questions }) {
 				{questions.map((question) => (
 					<Questionnaire key={question.id} question={question} />
 				))}
-				<div>100 </div>
+				<div class="circle-rating">95</div>
 			</div>
 			<div>
 				{brands.map((brand) => (
