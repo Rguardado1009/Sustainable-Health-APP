@@ -9,8 +9,9 @@ const Img = styled.img`
 function AdviceCard({ brand }) {
 	return (
 		<div>
-			<Img src={brand.item_url} />
-			<p> Price: $ {brand.price}</p>
+			<h3>{brand.brand}</h3>
+			<Img src={brand.image} />
+			<p> Price Range: {brand.price}</p>
 			<p>Brand Type: {brand.type}</p>
 		</div>
 	);
