@@ -62,13 +62,35 @@ code {
 }
 
 .circle-rating {
-  float: right;
-  width: 500px;
-  height: 500px;
-  line-height: 500px;
-  border-radius: 50%;
-  font-size: 50px;
-  color: #fff;
-  text-align: center;
-  background: #82d973;
+	float: right;
+	width: 500px;
+	height: 500px;
+	line-height: 500px;
+	border-radius: 50%;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	background: #82d973;
+}
+
+.questionCont {
+	display: flex;
+	align-items: flex-start;
+	justify-content: left;
+	flex-direction: column;
+	align-content: space-around;
+	border-radius: 4px;
+	background: #82d973;
+	padding: 10px 22px;
+	color: #000000;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.MainCont {
+	display: flex;
+	justify-content: center;
+	flex: 1;
 }
