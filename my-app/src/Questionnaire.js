@@ -28,10 +28,13 @@ const StyledButton = styled(Button)`
     background-color: red;
   }
 `;
+const H3 = styled.div`
+text-align: left;
+`
 function Questionnaire({question}){
     return (
         <div>
-           <h1>{question.question}</h1>
+           <H3>{question.question}</H3>
            <StyledButton>{question.answer1}</StyledButton>
            <StyledButton>{question.answer2}</StyledButton>
            <StyledButton>{question.answer3}</StyledButton>
