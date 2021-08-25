@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styled from "styled-components";
 import Button from "react-bootstrap/Button";
@@ -30,7 +30,7 @@ const StyledButton = styled(Button)`
 		background-color: red;
 	}
 `;
-function Questionnaire({ question }) {
+function Questionnaire({ question, handleNext, handlePrev }) {
 	return (
 		<Div>
 			<h4>{question.question}</h4>
@@ -38,6 +38,15 @@ function Questionnaire({ question }) {
 			<StyledButton>{question.answer2}</StyledButton>
 			<StyledButton>{question.answer3}</StyledButton>
 			<StyledButton>{question.answer4}</StyledButton>
+			<div>
+				<button onClick={handlePrev}> Previous</button>
+				<button onClick={handleNext}> Next</button>
+			</div>
+			{/* questions 1 hold highest value of 5 point
+			next question 4
+			next question 3
+			next question 2
+			 */}
 		</Div>
 	);
 }
