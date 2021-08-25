@@ -6,6 +6,11 @@ import Questionnaire from "./Questionnaire";
 
 function Home({ brands, questions }) {
 	const [questionIndex, setQuestionIndex] = useState(0);
+	const [showButton, setShowButton] = useState(false);
+	const [score, setScore] = useState(0);
+	const showNext = () => {
+		setShowButton(true);
+	};
 
 	const singleQuestion = questions
 		.slice(questionIndex, questionIndex + 1)
@@ -15,6 +20,10 @@ function Home({ brands, questions }) {
 				question={question}
 				handleNext={handleNext}
 				handlePrev={handlePrev}
+				showNext={showNext}
+				showButton={showButton}
+				questionIndex={questionIndex}
+				increaseScore={increaseScore}
 			/>
 		));
 
@@ -24,12 +33,15 @@ function Home({ brands, questions }) {
 	function handlePrev() {
 		setQuestionIndex((questionIndex) => (questionIndex - 1) % questions.length);
 	}
+	function increaseScore() {
+		setScore(score + 5);
+	}
 
 	return (
 		<div>
 			<div className="MainCont">
 				<div className="questionCont">{singleQuestion}</div>
-				<div className="circle-rating">95</div>
+				<div className="circle-rating">{score}</div>
 			</div>
 			<div className="adviceCont">
 				{brands.map((brand) => (
