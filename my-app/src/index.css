@@ -94,3 +94,28 @@ code {
 	justify-content: center;
 	flex: 1;
 }
+
+.brand-images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.voteBtns{
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.advice-cards {
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: #82d973 solid 10px;
+  padding: 1rem;
+  width: 20rem;
+  height: auto;
+  display: inline-grid;
+  margin: 1rem 2rem;
+}
