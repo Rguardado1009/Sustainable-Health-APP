@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styled from "styled-components";
 import AdviceCard from "./AdviceCard";
 import Questionnaire from "./Questionnaire";
 
@@ -8,9 +7,7 @@ function Home({ brands, questions }) {
 	const [questionIndex, setQuestionIndex] = useState(0);
 	const [showButton, setShowButton] = useState(false);
 	const [score, setScore] = useState(0);
-	const showNext = () => {
-		setShowButton(true);
-	};
+	// const showNext = () => {};
 
 	const singleQuestion = questions
 		.slice(questionIndex, questionIndex + 1)
@@ -20,10 +17,10 @@ function Home({ brands, questions }) {
 				question={question}
 				handleNext={handleNext}
 				handlePrev={handlePrev}
-				showNext={showNext}
 				showButton={showButton}
 				questionIndex={questionIndex}
 				increaseScore={increaseScore}
+				score={score}
 			/>
 		));
 
@@ -34,7 +31,12 @@ function Home({ brands, questions }) {
 		setQuestionIndex((questionIndex) => (questionIndex - 1) % questions.length);
 	}
 	function increaseScore() {
-		setScore(score + 5);
+		if (setScore) {
+			return setScore(score + 5);
+		} else {
+			return setScore(score + 4);
+		}
+		setShowButton(true);
 	}
 
 	return (
