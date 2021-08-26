@@ -1,3 +1,23 @@
+h1 {
+	font-family: "Roboto Mono", monospace;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: "Roboto Mono", monospace;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: "Roboto Mono", monospace;
+	font-size: 30px;
+}
+
+p {
+	font-family: "Roboto Mono", monospace;
+	font-size: px;
+	text-align: center;
+}
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -51,6 +71,8 @@ code {
 	border-radius: 4px;
 	background: #707070;
 	padding: 10px 22px;
+	font-size: 15px;
+	font-family: "Roboto Mono", monospace;
 	color: #000000;
 	outline: none;
 	border: none;
@@ -77,15 +99,16 @@ code {
 .questionCont {
 	display: flex;
 	align-items: flex-start;
-	justify-content: left;
-	flex-direction: column;
+	justify-content: center;
+	flex-direction: row;
 	align-content: space-around;
 	border-radius: 4px;
-	background: #82d973;
+	width: 50%;
+	border: green;
+	background: #f4f4f4;
 	padding: 10px 22px;
 	color: #000000;
 	outline: none;
-	border: none;
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -109,7 +132,7 @@ code {
 }
 
 .advice-cards {
-	display: flex;
+	display: block;
 	justify-content: center;
 	text-align: center;
 	border: #82d973 solid 10px;
@@ -118,4 +141,33 @@ code {
 	height: auto;
 	display: inline-grid;
 	margin: 1rem 2rem;
+}
+
+.QuizBtn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 18px 60px;
+	white-space: normal;
+}
+
+.comments {
+	color: #003569;
+}
+.SubmitButton {
+	width: 100%;
+	padding: 11px 40%;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	border-radius: 100px 100px 100px 100px;
+	cursor: pointer;
+	transition: all, 240ms ease-in-out;
+	background: #82d973 solid 10px;
+	background: linear-gradient(58deg, #82d973 20%, #82d973 100%);
+	&:hover {
+		filter: brightness(1.03);
+	}
 }
