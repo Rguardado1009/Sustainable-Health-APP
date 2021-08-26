@@ -22,9 +22,9 @@ export function SignupForm(props) {
 				<Input type="password" placeholder="Password" />
 				<Input type="password" placeholder="Confirm Password" />
 			</FormContainer>
-			<SubmitButton type="submit">Signup</SubmitButton>
+			<SubmitButton type="submit">SignUp</SubmitButton>
 
-			<MutedLink href="#">
+			<MutedLink href="Home.js">
 				Already have an account?
 				<BoldLink>Signin</BoldLink>
 			</MutedLink>

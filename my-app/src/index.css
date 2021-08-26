@@ -126,7 +126,7 @@ code {
 	width: 100%;
 }
 
-.voteBtns {
+.voteBtn {
 	margin: 1rem;
 	padding: 1rem;
 }
@@ -167,7 +167,40 @@ code {
 	transition: all, 240ms ease-in-out;
 	background: #82d973 solid 10px;
 	background: linear-gradient(58deg, #82d973 20%, #82d973 100%);
-	&:hover {
-		filter: brightness(1.03);
-	}
+}
+.About {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+a.Links {
+	justify-content: center;
+	display: flex;
+	width: 10%;
+	color: black;
+	font-family: "Roboto Mono", monospace;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+	transition: all, 240ms ease-in-out;
+	background: rgb(241, 196, 15);
+	background: linear-gradient(58deg, #82d973 20%, #82d973 100%);
+}
+
+.surveycomp {
+	width: 100%;
+	padding: 11px 40%;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	border-radius: 100px 100px 100px 100px;
+	transition: all, 240ms ease-in-out;
+	background: rgb(241, 196, 15);
+	background: linear-gradient(58deg, #82d973 20%, #82d973 100%);
 }

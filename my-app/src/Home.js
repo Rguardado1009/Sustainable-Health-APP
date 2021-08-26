@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AdviceCard from "./AdviceCard";
 import Questionnaire from "./Questionnaire";
-import { SignupForm } from "./SignupForm";
+import Signup from "./Signup";
 import { Switch, Route } from "react-router-dom";
 import About from "./About";
+import SurveyComplete from "./SurveyComplete";
 
 function Home({ brands, questions }) {
 	const [questionIndex, setQuestionIndex] = useState(0);
@@ -55,8 +56,17 @@ function Home({ brands, questions }) {
 				</Route>
 				<Route exact path="/">
 					<div className="MainCont">
-						<div className="questionCont">{singleQuestion}</div>
-						{complete === true && <SignupForm />}
+						<Signup />
+						{/* {complete === true && <SurveyComplete />} */}
+						<div className="circle-rating">{score}</div>
+					</div>
+				</Route>
+				<Route exact path="/quiz">
+					<div className="MainCont">
+						<div className="questionCont">
+							{singleQuestion}
+							{complete === true && <SurveyComplete />}
+						</div>
 						<div className="circle-rating">{score}</div>
 					</div>
 				</Route>
