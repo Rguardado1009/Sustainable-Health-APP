@@ -3,6 +3,7 @@ import Home from "./Home";
 import About from "./About";
 import Nav from "./Nav";
 import Footer from "./Footer";
+import Signup from "./Signup";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -20,15 +21,17 @@ function App() {
 			.then((questions) => setQuestions(questions));
 	}, []);
 
-	console.log(brands);
-	console.log(questions);
+	const [page, setPage] = useState("/");
 
 	return (
 		<div>
+			<Nav className="navbar" onChangePage={setPage} />
+			<br></br>
+			<br></br>
+			<p>Going green? Check your</p>
 			<h1 className="title">Sustainable Health Score</h1>
-			<Nav className="navbar" />
 			<Home brands={brands} questions={questions} />
-			<About />
+			<Signup />
 			<Footer />
 		</div>
 	);

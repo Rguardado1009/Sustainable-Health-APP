@@ -17,7 +17,6 @@
 			"price": "$$",
 			"item_url": "https://www.levi.com/US/en_US/",
 			"image": "https://logos-world.net/wp-content/uploads/2020/04/Levis-Logo-2003-present.jpg"
-
 		},
 		{
 			"id": 3,
@@ -110,170 +109,247 @@
 			"image": "https://mk0plaineproduc2a6do.kinstacdn.com/wp-content/uploads/IMG_4422.jpg"
 		}
 	],
-  
-    "Questions": [
-      	{
-        "id": 1,
-        "question": "Do you recycle?",
-        "answer1": "All the time",
-        "answer2": "Once in a while",
-        "answer3": "Once a week",
-        "answer4": "Once a month"
-        },
-      	{
-        "id": 2,
-        "question": "Do you try to reduce your production of daily trash?",
-        "answer1": "Always I hate taking out the trash",
-        "answer2": "No, but I buy recycled stuff anyway",
-        "answer3": "Sometimes when I have the energy",
-        "answer4": "Never, I only do what is most convenient for me"
-        },
-      	{
-        "id": 3,
-        "question": "Would you buy an electric car?",
-        "answer1": "I drive one now and I love it",
-        "answer2": "Yes, my next car will be electric",
-        "answer3": "Maybe, if I had the money or if they were big enough to hold my family",
-        "answer4": "No, they look funny"
-        },
-      	{
-        "id": 4,
-        "question": "Do you turn out the lights when you leave the house?",
-        "answer1": "All the time",
-        "answer2": "Yes but not all of them",
-        "answer3": "Sometimes",
-        "answer4": "Never"
-        },
-      	{
-        "id": 5,
-        "question": "How many miles per gallon does your vehicle get?",
-        "answer1": "Vehicles pollute too much so I don't use them",
-        "answer2": "Greater than 40",
-        "answer3": "Between 30-40",
-        "answer4": "Less than 30"
-        },
+
+	"Questions": [
 		{
-		"id": 6,
-		"question": "Do you buy organic foods?",
-		"answer1": "All the time",
-		"answer2": "Once in a while",
-		"answer3": "Never",
-		"answer4": "I don't know my mom buys my food"
+			"id": 1,
+			"question": "Do you recycle?",
+			"answer1": "All the time",
+			"answer2": "Once in a while",
+			"answer3": "Once a week",
+			"answer4": "Once a month",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 7,
-		"question": "Do you try to reduce your production of daily trash?",
-		"answer1": "Always I hate taking out the trash",
-		"answer2": "No, but I buy recycled stuff anyway",
-		"answer3": "Sometimes when I have the energy",
-		"answer4": "Never, I only do what is most convenient for me"
+			"id": 2,
+			"question": "Do you try to reduce your production of daily trash?",
+			"answer1": "Always I hate taking out the trash",
+			"answer2": "No, but I buy recycled stuff anyway",
+			"answer3": "Sometimes when I have the energy",
+			"answer4": "Never, I only do what is most convenient for me",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 8,
-		"question": "Do you use LED light fixtures/bulbs in your house",
-		"answer1": "Yes all my fixtures use LED bulbs",
-		"answer2": "Only some of my fixtures use LED bulbs",
-		"answer3": "No, what are they?",
-		"answer4": "No, they are too expensive"
+			"id": 3,
+			"question": "Would you buy an electric car?",
+			"answer1": "I drive one now and I love it",
+			"answer2": "Yes, my next car will be electric",
+			"answer3": "Maybe, if I had the money or if they were big enough to hold my family",
+			"answer4": "No, they look funny",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 9,
-		"question": "Do you leave your cell phone charger plugged in when the phone isn't even on it?",
-		"answer1": "Never",
-		"answer2": "Sometimes",
-		"answer3": "All the time",
-		"answer4": "Does it even matter?"
+			"id": 4,
+			"question": "Do you turn out the lights when you leave the house?",
+			"answer1": "All the time",
+			"answer2": "Yes but not all of them",
+			"answer3": "Sometimes",
+			"answer4": "Never",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 10,
-		"question": "Do you drink bottled water?",
-		"answer1": "Never",
-		"answer2": "Sometimes",
-		"answer3": "All the time",
-		"answer4": "Does it even matter?"
+			"id": 5,
+			"question": "How many miles per gallon does your vehicle get?",
+			"answer1": "Vehicles pollute too much so I don't use them",
+			"answer2": "Greater than 40",
+			"answer3": "Between 30-40",
+			"answer4": "Less than 30",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 11,
-		"question": "Do you try to reduce your production of daily trash?",
-		"answer1": "Always I hate taking out the trash",
-		"answer2": "No, but I buy recycled stuff anyway",
-		"answer3": "Sometimes when I have the energy",
-		"answer4": "Never, I only do what is most convenient for me"
+			"id": 6,
+			"question": "Do you buy organic foods?",
+			"answer1": "All the time",
+			"answer2": "Once in a while",
+			"answer3": "Never",
+			"answer4": "I don't know my mom buys my food",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 12,
-		"question": "What do you do with clothes that you don't want anymore?",
-		"answer1": "Donate them",
-		"answer2": "I make a quilt out of them",
-		"answer3": "Sell them",
-		"answer4": "Throw them away"
+			"id": 7,
+			"question": "Do you try to reduce your production of daily trash?",
+			"answer1": "Always I hate taking out the trash",
+			"answer2": "No, but I buy recycled stuff anyway",
+			"answer3": "Sometimes when I have the energy",
+			"answer4": "Never, I only do what is most convenient for me",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 13,
-		"question": "When having a family BBQ, what do you eat off of?",
-		"answer1": "Biodegradable plates, cups, eating utensils, and napkins",
-		"answer2": "Dishes from inside the house that I will wash later",
-		"answer3": "Paper plates and plastic cups",
-		"answer4": "Styrofoam plates and cups"
+			"id": 8,
+			"question": "Do you use LED light fixtures/bulbs in your house",
+			"answer1": "Yes all my fixtures use LED bulbs",
+			"answer2": "Only some of my fixtures use LED bulbs",
+			"answer3": "No, what are they?",
+			"answer4": "No, they are too expensive",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 14,
-		"question": "What do you use to carry your groceries?",
-		"answer1": "Reusable canvas bags",
-		"answer2": "Paper or plastic bags that I recycle after",
-		"answer3": "Paper bags",
-		"answer4": "Plastic bags"
+			"id": 9,
+			"question": "Do you leave your cell phone charger plugged in when the phone isn't even on it?",
+			"answer1": "Never",
+			"answer2": "Sometimes",
+			"answer3": "All the time",
+			"answer4": "Does it even matter?",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 15,
-		"question": "Do you turn off the water while you brush your teeth, shave, etc?",
-		"answer1": "All the time",
-		"answer2": "Once in a while",
-		"answer3": "Never",
-		"answer4": "I don't do any of those things"
+			"id": 10,
+			"question": "Do you drink bottled water?",
+			"answer1": "Never",
+			"answer2": "Sometimes",
+			"answer3": "All the time",
+			"answer4": "Does it even matter?",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 16,
-		"question": "When I clean my home I use?",
-		"answer1": "All natural cleaning products",
-		"answer2": "I make my own clearning agents",
-		"answer3": "I buy whatever is cheapest",
-		"answer4": "I just use a broom"
+			"id": 11,
+			"question": "Do you try to reduce your production of daily trash?",
+			"answer1": "Always I hate taking out the trash",
+			"answer2": "No, but I buy recycled stuff anyway",
+			"answer3": "Sometimes when I have the energy",
+			"answer4": "Never, I only do what is most convenient for me",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 17,
-		"question": "When buying furniture, my go to store is?",
-		"answer1": "Vintage, used furniture stores",
-		"answer2": "I make sure to research eco-friendly furniture before buying",
-		"answer3": "I buy all my furniture from Amazon",
-		"answer4": "I buy whatever is cheapest and looks the best in my space"
+			"id": 12,
+			"question": "What do you do with clothes that you don't want anymore?",
+			"answer1": "Donate them",
+			"answer2": "I make a quilt out of them",
+			"answer3": "Sell them",
+			"answer4": "Throw them away",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 18,
-		"question": "Do you have appliances (fridge, stove, washer/dryer) in your home that is over 10 years old?",
-		"answer1": "No everything is new and Energy Star Qualified",
-		"answer2": "No I use fire to cook my food",
-		"answer3": "Some are old and some are new",
-		"answer4": "Yes I love antiques!"
+			"id": 13,
+			"question": "When having a family BBQ, what do you eat off of?",
+			"answer1": "Biodegradable plates, cups, eating utensils, and napkins",
+			"answer2": "Dishes from inside the house that I will wash later",
+			"answer3": "Paper plates and plastic cups",
+			"answer4": "Styrofoam plates and cups",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 19,
-		"question": "When buying new clothes, my go to store is?",
-		"answer1": "Vintage, used furniture stores",
-		"answer2": "I make sure to research eco-friendly clothing stores before buying",
-		"answer3": "I buy all my clothes from Amazon",
-		"answer4": "I buy whatever is cheapest and looks the best on me"
+			"id": 14,
+			"question": "What do you use to carry your groceries?",
+			"answer1": "Reusable canvas bags",
+			"answer2": "Paper or plastic bags that I recycle after",
+			"answer3": "Paper bags",
+			"answer4": "Plastic bags",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		},
 		{
-		"id": 20,
-		"question": "Do you sign up for electronic bank statements?",
-		"answer1": "Yes",
-		"answer2": "I dont have a bank!",
-		"answer3": "No",
-		"answer4": "You can do that?"
+			"id": 15,
+			"question": "Do you turn off the water while you brush your teeth, shave, etc?",
+			"answer1": "All the time",
+			"answer2": "Once in a while",
+			"answer3": "Never",
+			"answer4": "I don't do any of those things",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
+		},
+		{
+			"id": 16,
+			"question": "When I clean my home I use?",
+			"answer1": "All natural cleaning products",
+			"answer2": "I make my own clearning agents",
+			"answer3": "I buy whatever is cheapest",
+			"answer4": "I just use a broom",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
+		},
+		{
+			"id": 17,
+			"question": "When buying furniture, my go to store is?",
+			"answer1": "Vintage, used furniture stores",
+			"answer2": "I make sure to research eco-friendly furniture before buying",
+			"answer3": "I buy all my furniture from Amazon",
+			"answer4": "I buy whatever is cheapest and looks the best in my space",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
+		},
+		{
+			"id": 18,
+			"question": "Do you have appliances (fridge, stove, washer/dryer) in your home that is over 10 years old?",
+			"answer1": "No everything is new and Energy Star Qualified",
+			"answer2": "No I use fire to cook my food",
+			"answer3": "Some are old and some are new",
+			"answer4": "Yes I love antiques!",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
+		},
+		{
+			"id": 19,
+			"question": "When buying new clothes, my go to store is?",
+			"answer1": "Vintage, used furniture stores",
+			"answer2": "I make sure to research eco-friendly clothing stores before buying",
+			"answer3": "I buy all my clothes from Amazon",
+			"answer4": "I buy whatever is cheapest and looks the best on me",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
+		},
+		{
+			"id": 20,
+			"question": "Do you sign up for electronic bank statements?",
+			"answer1": "Yes",
+			"answer2": "I dont have a bank!",
+			"answer3": "No",
+			"answer4": "You can do that?",
+			"score1": 5,
+			"score2": 4,
+			"score3": 3,
+			"score4": 2
 		}
-    ]
-  }
-
-
-
+	]
+}

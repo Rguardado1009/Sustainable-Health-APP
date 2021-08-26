@@ -6,24 +6,46 @@ function Questionnaire({
 	handleNext,
 	handlePrev,
 	showNext,
-	showButton,
 	questionIndex,
-	increaseScore,
-	Score,
+	score,
+	setScore,
 }) {
 	const [takeQuiz, setTakeQuiz] = useState(questionIndex > 0 ? false : true);
+	const [showButton, setShowButton] = useState(false);
+
+	function increaseScore() {
+		setShowButton(true);
+		setScore(() => {
+			if (score === 100) {
+				return score;
+			} else {
+				return setScore(score + question.score1);
+			}
+		});
+	}
 
 	return (
 		<div>
 			{takeQuiz ? (
-				<button onClick={() => setTakeQuiz(!takeQuiz)}>Take Quiz</button>
+				<button className="QuizBtn" onClick={() => setTakeQuiz(!takeQuiz)}>
+					Take Quiz
+				</button>
 			) : (
 				<div>
 					<h4>{question.question}</h4>
-					<button onClick={increaseScore}>{question.answer1}</button>
-					<button onClick={increaseScore}>{question.answer2}</button>
-					<button onClick={increaseScore}>{question.answer3}</button>
-					<button onClick={increaseScore}>{question.answer4}</button>
+					<button className="QuizBtn" onClick={increaseScore}>
+						{question.answer1}
+					</button>
+					<button className="QuizBtn" onClick={increaseScore}>
+						{question.answer2}
+					</button>
+					<button className="QuizBtn" onClick={increaseScore}>
+						{question.answer3}
+					</button>
+					<button className="QuizBtn" onClick={increaseScore}>
+						{question.answer4}
+					</button>
+
 					<div>
 						{/* <button onClick={handlePrev}> Previous</button> */}
 						{showButton ? <button onClick={handleNext}> Next</button> : null}
