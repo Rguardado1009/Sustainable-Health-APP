@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Nav from "./Nav";
@@ -20,15 +21,28 @@ function App() {
 			.then((questions) => setQuestions(questions));
 	}, []);
 
-	console.log(brands);
-	console.log(questions);
+	const [page, setPage] = useState("/")
+
+	// function getCurrentPage() {
+	// 	switch(page) {
+	// 		case "/":
+	// 			return <Home />
+	// 		case "/about":
+	// 			return <About />
+	// 		default:
+	// 			return <h1>404 not found</h1>
+	// 	}
+	// }
 
 	return (
 		<div>
+			<Nav className="navbar" onChangePage={setPage}/>
+			{/* {getCurrentPage()} */}
+			<br></br>
+			<br></br>
+			<p>Going green? Check your</p>
 			<h1 className="title">Sustainable Health Score</h1>
-			<Nav className="navbar" />
 			<Home brands={brands} questions={questions} />
-			<About />
 			<Footer />
 		</div>
 	);
