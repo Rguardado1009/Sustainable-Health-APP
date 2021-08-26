@@ -7,6 +7,7 @@ function Home({ brands, questions }) {
 	const [questionIndex, setQuestionIndex] = useState(0);
 	const [showButton, setShowButton] = useState(false);
 	const [score, setScore] = useState(0);
+	const [complete, setComplete] = useState(false);
 	// const showNext = () => {};
 
 	const singleQuestion = questions
@@ -25,17 +26,19 @@ function Home({ brands, questions }) {
 		));
 
 	function handleNext() {
-		setQuestionIndex((questionIndex) => (questionIndex + 1) % questions.length);
+		setQuestionIndex((questionIndex) => {
+			if (questionIndex < 19) {
+				return(questionIndex + 1) % questions.length;
+			} else {
+				setComplete(true);
+			}
+		});
 	}
 	function handlePrev() {
 		setQuestionIndex((questionIndex) => (questionIndex - 1) % questions.length);
 	}
 	function increaseScore() {
-		if (setScore) {
-			return setScore(score + 5);
-		} else {
-			return setScore(score + 4);
-		}
+		setScore(score + 5);
 		setShowButton(true);
 	}
 

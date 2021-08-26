@@ -11,8 +11,8 @@ function AdviceCard({ brand }) {
             <p>Brand Type: {brand.type}</p>
             <a href={brand.item_url}>Shop Now</a>
             <span className="voteBtns">
-                <button onClick={() => setLikeBtn(likeBtn + 1)}>{likeBtn}  :+1:</button>
-                <button onClick={() => setDislikeBtn(dislikeBtn + 1)}>{dislikeBtn}  :-1:</button>
+                <button onClick={() => setLikeBtn(likeBtn + 1)}>{likeBtn} 👍  </button>
+                <button onClick={() => setDislikeBtn(dislikeBtn + 1)}>{dislikeBtn}  👎 </button>
             </span>
             <Comments/>
         </div>

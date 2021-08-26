@@ -67,10 +67,11 @@ code {
 	height: 500px;
 	line-height: 500px;
 	border-radius: 50%;
-	font-size: 50px;
-	color: #fff;
+	font-size: 150px;
+	color: white;
 	text-align: center;
-	background: #82d973;
+	background-image: url("https://www.globe.gov/o/gov.globe.home.explorelearnearth.web/images/learn-earth-system-clean.png");
+	background-size: cover;
 }
 
 .questionCont {
@@ -95,27 +96,26 @@ code {
 	flex: 1;
 }
 
-.brand-images{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+.brand-images {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }
 
-.voteBtns{
-  margin: 1rem;
-  padding: 1rem;
+.voteBtns {
+	margin: 1rem;
+	padding: 1rem;
 }
 
 .advice-cards {
-
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  border: #82d973 solid 10px;
-  padding: 1rem;
-  width: 20rem;
-  height: auto;
-  display: inline-grid;
-  margin: 1rem 2rem;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border: #82d973 solid 10px;
+	padding: 1rem;
+	width: 20rem;
+	height: auto;
+	display: inline-grid;
+	margin: 1rem 2rem;
 }
