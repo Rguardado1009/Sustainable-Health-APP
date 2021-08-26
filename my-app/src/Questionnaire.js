@@ -13,13 +13,13 @@ function Questionnaire({
 	const [takeQuiz, setTakeQuiz] = useState(questionIndex > 0 ? false : true);
 	const [showButton, setShowButton] = useState(false);
 
-	function increaseScore() {
+	function increaseScore(newScore) {
 		setShowButton(true);
 		setScore(() => {
-			if (score === 100) {
+			if (score + newScore > 100) {
 				return score;
 			} else {
-				return setScore(score + question.score1);
+				return setScore(score + newScore);
 			}
 		});
 	}
@@ -33,16 +33,28 @@ function Questionnaire({
 			) : (
 				<div>
 					<h4>{question.question}</h4>
-					<button className="QuizBtn" onClick={increaseScore}>
+					<button
+						className="QuizBtn"
+						onClick={() => increaseScore(question.score1)}
+					>
 						{question.answer1}
 					</button>
-					<button className="QuizBtn" onClick={increaseScore}>
+					<button
+						className="QuizBtn"
+						onClick={() => increaseScore(question.score2)}
+					>
 						{question.answer2}
 					</button>
-					<button className="QuizBtn" onClick={increaseScore}>
+					<button
+						className="QuizBtn"
+						onClick={() => increaseScore(question.score3)}
+					>
 						{question.answer3}
 					</button>
-					<button className="QuizBtn" onClick={increaseScore}>
+					<button
+						className="QuizBtn"
+						onClick={() => increaseScore(question.score4)}
+					>
 						{question.answer4}
 					</button>
 

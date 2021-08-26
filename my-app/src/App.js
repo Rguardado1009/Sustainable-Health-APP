@@ -31,7 +31,7 @@ function App() {
 			<p>Going green? Check your</p>
 			<h1 className="title">Sustainable Health Score</h1>
 			<Home brands={brands} questions={questions} />
-			<Signup />
+
 			<Footer />
 		</div>
 	);
