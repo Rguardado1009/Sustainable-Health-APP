@@ -20,7 +20,7 @@ export function SignupForm(props) {
 		setPassword("");
 		setConfPassword("");
 		const account = { user, email, password, confPassword };
-		fetch("http://localhost:8000/Account", {
+		fetch("https://polar-beyond-77738.herokuapp.com/Account", {
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify(account),
