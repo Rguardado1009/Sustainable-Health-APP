@@ -4,8 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Questionnaire({
 	question,
 	handleNext,
-	handlePrev,
-	showNext,
 	questionIndex,
 	score,
 	setScore,
@@ -59,14 +57,8 @@ function Questionnaire({
 					</button>
 
 					<div>
-						{/* <button onClick={handlePrev}> Previous</button> */}
 						{showButton ? <button onClick={handleNext}> Next</button> : null}
 					</div>
-					{/* questions 1 hold highest value of 5 point
-			next question 4
-			next question 3
-			next question 2
-			 */}
 				</div>
 			)}
 		</div>

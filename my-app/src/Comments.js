@@ -5,11 +5,7 @@ function Comments() {
 	const [commentText, setCommentText] = useState("");
 
 	function addComment() {
-		return (
-			<div className="comments">
-				<p>{commentList}</p>
-			</div>
-		);
+		return <div className="comments">{commentList}</div>;
 	}
 	function handleSubmit(event) {
 		event.preventDefault();
