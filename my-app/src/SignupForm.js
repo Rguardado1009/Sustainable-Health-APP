@@ -15,7 +15,10 @@ export function SignupForm(props) {
 	const [password, setPassword] = useState("");
 	const [confPassword, setConfPassword] = useState("");
 	const handleSubmit = (e) => {
-		e.preventDefault();
+		setUser("");
+		setEmail("");
+		setPassword("");
+		setConfPassword("");
 		const account = { user, email, password, confPassword };
 		fetch("http://localhost:8000/Account", {
 			method: "POST",
@@ -64,10 +67,6 @@ export function SignupForm(props) {
 				Already have an account?
 				<BoldLink>Signin</BoldLink>
 			</MutedLink>
-			<p>{user}</p>
-			<p>{email}</p>
-			<p>{password}</p>
-			<p>{confPassword}</p>
 		</BoxContainer>
 	);
 }

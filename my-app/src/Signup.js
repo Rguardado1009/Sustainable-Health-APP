@@ -1,8 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
-// import { LoginForm } from "./loginForm";
-// import { motion } from "framer-motion";
-// import { AccountContext } from "./accountContext";
 import { SignupForm } from "./SignupForm";
 
 const BoxContainer = styled.div`

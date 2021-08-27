@@ -19,7 +19,7 @@ function App() {
 			.then((questions) => setQuestions(questions));
 	}, []);
 
-	const [page, setPage] = useState("/");
+	const [setPage] = useState("/");
 
 	return (
 		<div>

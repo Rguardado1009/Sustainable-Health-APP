@@ -5,10 +5,19 @@ function Comments() {
 	const [commentText, setCommentText] = useState("");
 
 	function addComment() {
-		return <div className="comments">{commentList}</div>;
+		return (
+			<ul className="comments">
+				{commentList.map((comment) => (
+					<p>{comment}</p>
+				))}
+			</ul>
+		);
 	}
-	function handleSubmit(event) {
-		event.preventDefault();
+
+	function handleSubmit(e) {
+		e.preventDefault();
+		setCommentText("");
+		addComment(commentText);
 		setCommentList([...commentList, commentText]);
 	}
 
@@ -16,12 +25,13 @@ function Comments() {
 		<div className="Advice Comments">
 			<form onSubmit={handleSubmit}>
 				<input
+					className="formInput"
 					type="text"
 					value={commentText}
 					onChange={(e) => setCommentText(e.target.value)}
 					placeholder="Leave a comment"
 				/>
-				<input type="submit" value="Post" />
+				<input className="commentSubmit" type="submit" value="Post" />
 			</form>
 			{addComment()}
 		</div>
