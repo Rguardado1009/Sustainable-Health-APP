@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Home from "./Home";
-import About from "./About";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import Signup from "./Signup";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -31,7 +29,6 @@ function App() {
 			<p>Going green? Check your</p>
 			<h1 className="title">Sustainable Health Score</h1>
 			<Home brands={brands} questions={questions} />
-
 			<Footer />
 		</div>
 	);

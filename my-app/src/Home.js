@@ -7,12 +7,11 @@ import { Switch, Route } from "react-router-dom";
 import About from "./About";
 import SurveyComplete from "./SurveyComplete";
 
-function Home({ brands, questions }) {
+function Home({ brands, questions, accounts }) {
 	const [questionIndex, setQuestionIndex] = useState(0);
 
 	const [score, setScore] = useState(0);
 	const [complete, setComplete] = useState(false);
-	// const showNext = () => {};
 
 	const singleQuestion = questions
 		.slice(questionIndex, questionIndex + 1)
@@ -21,7 +20,6 @@ function Home({ brands, questions }) {
 				key={question.id}
 				question={question}
 				handleNext={handleNext}
-				handlePrev={handlePrev}
 				questionIndex={questionIndex}
 				score={score}
 				setScore={setScore}
@@ -37,8 +35,8 @@ function Home({ brands, questions }) {
 			}
 		});
 	}
-	function handlePrev() {
-		setQuestionIndex((questionIndex) => (questionIndex - 1) % questions.length);
+	function mappedAccounts() {
+		accounts.map((account) => account);
 	}
 
 	return (
@@ -75,19 +73,6 @@ function Home({ brands, questions }) {
 				</Route>
 			</Switch>
 		</div>
-
-		// <div>
-		// 	<div className="MainCont">
-		// 		<div className="questionCont">{singleQuestion}</div>
-		// 		<div className="circle-rating">{score}</div>
-		// 		{complete === true && <SignupForm />}
-		// 	</div>
-		// 	<div className="adviceCont">
-		// 		{brands.map((brand) => (
-		// 			<AdviceCard key={brand.id} brand={brand} />
-		// 		))}
-		// 	</div>
-		// </div>
 	);
 }
 export default Home;
