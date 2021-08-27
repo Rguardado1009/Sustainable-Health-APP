@@ -9,12 +9,12 @@ function App() {
 	const [questions, setQuestions] = useState([]);
 
 	useEffect(() => {
-		fetch("http://localhost:8000/brands")
+		fetch("https://polar-beyond-77738.herokuapp.com/brands")
 			.then((response) => response.json())
 			.then((brands) => setBrands(brands));
 	}, []);
 	useEffect(() => {
-		fetch("http://localhost:8000/Questions")
+		fetch("https://polar-beyond-77738.herokuapp.com/Questions")
 			.then((response) => response.json())
 			.then((questions) => setQuestions(questions));
 	}, []);
