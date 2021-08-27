@@ -57,7 +57,7 @@ function Questionnaire({
 					</button>
 
 					<div>
-						{showButton ? <button onClick={handleNext}> Next</button> : null}
+						{showButton ? <button className="nextbtn" onClick={handleNext}> Next</button> : null}
 					</div>
 				</div>
 			)}

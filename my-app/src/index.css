@@ -100,14 +100,13 @@ code {
 
 .questionCont {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: center;
 	flex-direction: row;
 	align-content: space-around;
 	border-radius: 4px;
 	width: 50%;
 	border: green;
-	background: #f4f4f4;
 	padding: 10px 22px;
 	color: #000000;
 	outline: none;
@@ -138,20 +137,50 @@ code {
 	justify-content: center;
 	text-align: center;
 	border: #82d973 solid 10px;
-	padding: 1rem;
+	border-radius: 20px;
 	width: 20rem;
 	height: auto;
 	display: inline-grid;
 	margin: 1rem 2rem;
 }
 
+.bottom-card {
+	background-color: #82d973;
+}
+
 .QuizBtn {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	width: 100%;
+	margin-bottom: 10px;
 	padding: 18px 60px;
 	white-space: normal;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	border-radius: 100px 100px 100px 100px;
+	cursor: pointer;
+	transition: all, 240ms ease-in-out;
+	background: #82d973 solid 10px;
+	background: linear-gradient(58deg, #82d973 20%, #82d973 100%);
+}
+
+.nextbtn {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 18px 60px;
+	white-space: normal;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	border-radius: 100px 100px 100px 100px;
+	cursor: pointer;
+	transition: all, 240ms ease-in-out;
+	background: gray 10px;
 }
 
 .comments {

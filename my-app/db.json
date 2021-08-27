@@ -358,62 +358,6 @@
       "email": "rguardado1009@gmail.com",
       "password": "Admin1",
       "confPassword": "Admin1"
-    },
-    {
-      "user": "Ronald Guardado",
-      "email": "rguardado1009@gmail.com",
-      "password": "password",
-      "confPassword": "password",
-      "id": 2
-    },
-    {
-      "user": "Ronald Guardado",
-      "email": "rguardado1009@gmail.com",
-      "password": "password",
-      "confPassword": "password",
-      "id": 3
-    },
-    {
-      "user": "Ronald Guardado",
-      "email": "rguardado1009@gmail.com",
-      "password": "password",
-      "confPassword": "password",
-      "id": 4
-    },
-    {
-      "user": "",
-      "email": "",
-      "password": "",
-      "confPassword": "",
-      "id": 5
-    },
-    {
-      "user": "",
-      "email": "",
-      "password": "",
-      "confPassword": "",
-      "id": 6
-    },
-    {
-      "user": "",
-      "email": "",
-      "password": "",
-      "confPassword": "",
-      "id": 7
-    },
-    {
-      "user": "",
-      "email": "",
-      "password": "",
-      "confPassword": "",
-      "id": 8
-    },
-    {
-      "user": "Ronald Guardado",
-      "email": "Treehousestudionyc@gmail.com",
-      "password": "asd",
-      "confPassword": "asd",
-      "id": 9
     }
   ]
 }
