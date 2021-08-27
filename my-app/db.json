@@ -39,6 +39,42 @@
     {
       "id": 5,
       "name": " ",
+      "type": "Clothing",
+      "brand": "Stefania Vaidani",
+      "price": "$$$$",
+      "item_url": "https://stefania-vaidani.com/",
+      "image": "https://uspto.report/TM/90162214/mark.png"
+    },
+    {
+      "id": 6,
+      "name": " ",
+      "type": "Clothing",
+      "brand": "Nynne",
+      "price": "$$$$",
+      "item_url": "https://nynne.eu/",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nynne-ss21-campaign-10-1620907305.jpeg?crop=1xw:0.999375xh;center,top&resize=980:*"
+    },
+    {
+      "id": 7,
+      "name": " ",
+      "type": "Clothing",
+      "brand": "Bogdar",
+      "price": "$$$$",
+      "item_url": "https://bogdar.com/",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bodgar-sustainable-brand-1609770009.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+      "id": 8,
+      "name": " ",
+      "type": "Clothing",
+      "brand": "Olivia Rose the Label",
+      "price": "$$$$",
+      "item_url": "https://oliviarosethelabel.com/",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/olivia-rose-the-label-1610382421.jpeg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+      "id": 9,
+      "name": " ",
       "type": "Furniture",
       "brand": "Masaya & Co",
       "price": "$$$",
@@ -46,7 +82,7 @@
       "image": "https://cdn.shopify.com/s/files/1/1026/2987/collections/handwovenFurniture_500x.png?v=1620420599"
     },
     {
-      "id": 6,
+      "id": 10,
       "name": " ",
       "type": "Furniture",
       "brand": "Alabama Sawyer",
@@ -55,7 +91,7 @@
       "image": "http://gardenandgun.com/wp-content/uploads/2017/11/GG0617_mitsa_31_cropped.jpg"
     },
     {
-      "id": 7,
+      "id": 11,
       "name": " ",
       "type": "Furniture",
       "brand": "Emeco",
@@ -64,7 +100,7 @@
       "image": "https://hivemodern.com/public_resources/full/emeco-navy-wood-chair-7.jpg"
     },
     {
-      "id": 8,
+      "id": 12,
       "name": " ",
       "type": "furniture",
       "brand": "Simbly",
@@ -73,7 +109,25 @@
       "image": "https://cdn.shopify.com/s/files/1/0003/0667/5724/files/Simbly_Furniture_Collection_1400x.jpg?v=1602775163"
     },
     {
-      "id": 9,
+      "id": 13,
+      "name": " ",
+      "type": "furniture",
+      "brand": "Burrow",
+      "price": "$$$",
+      "item_url": "https://burrow.com/?utm_source=pepperjam&utm_medium=affiliate&utm_campaign=147620&clickId=3676291999",
+      "image": "https://techcrunch.com/wp-content/uploads/2021/02/Burrow_Camel-Leather_Lifestyle_1.jpg?w=730&crop=1"
+    },
+    {
+      "id": 14,
+      "name": " ",
+      "type": "Household",
+      "brand": "Blueland",
+      "price": "$",
+      "item_url": "https://www.blueland.com/products/the-clean-essentials?gclid=CjwKCAjwmqKJBhAWEiwAMvGt6I-sJ1GZ7n83aFHcpWEJf0k_VrqAOhCWN6kV_CsajURGdf4uFjzrixoC-TMQAvD_BwE",
+      "image": "https://i.insider.com/5dc2ee7de94e8613250f6afd?width=800&format=jpeg"
+    },
+    {
+      "id": 15,
       "name": " ",
       "type": "Household",
       "brand": "Public Goods",
@@ -82,7 +136,7 @@
       "image": "https://blog.mysubscriptionaddiction.com/wp-content/uploads/2020/03/Public-Goods-March-2020-0005-733x733.jpg"
     },
     {
-      "id": 10,
+      "id": 16,
       "name": " ",
       "type": "Household",
       "brand": "Earth Hero",
@@ -91,7 +145,7 @@
       "image": "https://1yjob743ilegfihp83lnmdm1-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/Sustainable-Ethical-Online-Shops-EarthHero-1024x682.jpg"
     },
     {
-      "id": 11,
+      "id": 17,
       "name": " ",
       "type": "Household",
       "brand": "Dr Bronner",
@@ -100,7 +154,7 @@
       "image": "https://cdn.vox-cdn.com/thumbor/qXPfkz40Nl7j6zKpOoUwQtB0Xw8=/0x0:1920x1080/1200x675/filters:focal(807x387:1113x693)/cdn.vox-cdn.com/uploads/chorus_image/image/63750939/3_bronner.0.png"
     },
     {
-      "id": 12,
+      "id": 18,
       "name": " ",
       "type": "Household",
       "brand": "Dropps",
@@ -358,6 +412,20 @@
       "email": "rguardado1009@gmail.com",
       "password": "Admin1",
       "confPassword": "Admin1"
+    },
+    {
+      "user": "Ronald Guardado",
+      "email": "rguardado1009@gmail.com",
+      "password": "",
+      "confPassword": "",
+      "id": 2
+    },
+    {
+      "user": "Ronald Guardado",
+      "email": "rguardado1009@gmail.com",
+      "password": "",
+      "confPassword": "",
+      "id": 3
     }
   ]
 }

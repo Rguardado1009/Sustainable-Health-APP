@@ -7,7 +7,7 @@ import { Switch, Route } from "react-router-dom";
 import About from "./About";
 import SurveyComplete from "./SurveyComplete";
 
-function Home({ brands, questions, accounts }) {
+function Home({ brands, questions }) {
 	const [questionIndex, setQuestionIndex] = useState(0);
 
 	const [score, setScore] = useState(0);
@@ -35,9 +35,6 @@ function Home({ brands, questions, accounts }) {
 			}
 		});
 	}
-	function mappedAccounts() {
-		accounts.map((account) => account);
-	}
 
 	return (
 		<div>
@@ -55,7 +52,6 @@ function Home({ brands, questions, accounts }) {
 				<Route exact path="/">
 					<div className="MainCont">
 						<Signup />
-						{/* {complete === true && <SurveyComplete />} */}
 						<div className="circle-rating">{score}</div>
 					</div>
 				</Route>

@@ -13,6 +13,11 @@ h3 {
 	font-size: 30px;
 }
 
+h4 {
+	font-family: "Roboto Mono", monospace;
+	font-size: 30px;
+}
+
 p {
 	font-family: "Roboto Mono", monospace;
 	font-size: px;
@@ -127,9 +132,35 @@ code {
 	width: 100%;
 }
 
-.voteBtn {
-	margin: 1rem;
-	padding: 1rem;
+.like {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background: white 10px;
+	border-radius: 100px 100px 100px 100px;
+	border: none;
+}
+.dislike {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background: white 10px;
+	border-radius: 100px 100px 100px 100px;
+	border: none;
+}
+
+.commentSubmit {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background: white 10px;
+	border-radius: 100px 100px 100px 100px;
+	border: none;
+}
+
+.formInput {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background: white 10px;
+	border-radius: 100px 100px 100px 100px;
+	border: none;
 }
 
 .advice-cards {

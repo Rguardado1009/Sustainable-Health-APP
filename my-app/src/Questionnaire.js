@@ -31,6 +31,7 @@ function Questionnaire({
 			) : (
 				<div>
 					<h4>{question.question}</h4>
+					<br />
 					<button
 						className="QuizBtn"
 						onClick={() => increaseScore(question.score1)}
@@ -57,7 +58,12 @@ function Questionnaire({
 					</button>
 
 					<div>
-						{showButton ? <button className="nextbtn" onClick={handleNext}> Next</button> : null}
+						{showButton ? (
+							<button className="nextbtn" onClick={handleNext}>
+								{" "}
+								Next
+							</button>
+						) : null}
 					</div>
 				</div>
 			)}
